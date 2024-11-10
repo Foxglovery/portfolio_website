@@ -6,7 +6,7 @@
 /* hero background image */
 .bgimage {
   height: 100vh;
-  background: url("images/particle_glow.jpg");
+  background: url("images/rainbow_glow.jpg");
   background-size: cover;
   position: relative;
 }
@@ -23,7 +23,7 @@
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  color: rgb(239, 232, 232);
+  color: rgb(255, 252, 252);
 }
 
 /* spacing on all sections */
