@@ -4,12 +4,19 @@ body {
 h1 {
   color: wheat;
 }
+.btn {
+  color: wheat !important;
+  background-color: #4f0d7b !important;
+}
 
 .nav-link {
   color: wheat !important;
 }
 .navbar-brand {
   color: wheat !important;
+}
+.container {
+  font-family: "PT Serif";
 }
 /* display background color black on navbar scroll */
 .navbarScroll.navbarDark {
@@ -26,9 +33,11 @@ h1 {
 /* text css above hero image*/
 .hero_title {
   font-size: 4.5rem;
+  font-family: "PT Serif";
 }
 .hero_desc {
   font-size: 2rem;
+  font-family: "PT Serif";
 }
 .hero-text {
   text-align: center;
