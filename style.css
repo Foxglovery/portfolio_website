@@ -74,6 +74,12 @@ h1 {
 .card-title {
   text-align: center;
 }
+card-image-top {
+  object-fit: cover;
+  width: 100%;
+  height: 200px;
+  border-radius: 0.25rem;
+}
 .card:hover .servicesIcon {
   color: #239fbe;
 }
