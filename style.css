@@ -16,7 +16,7 @@ h1 {
   color: wheat !important;
 }
 .container {
-  font-family: "PT Serif";
+  font-family: "PT Serif", "Verdana", "Tahoma";
 }
 /* display background color black on navbar scroll */
 .navbarScroll.navbarDark {
@@ -33,11 +33,11 @@ h1 {
 /* text css above hero image*/
 .hero_title {
   font-size: 4.5rem;
-  font-family: "PT Serif";
+  font-family: "PT Serif", "Verdana", "Tahoma";
 }
 .hero_desc {
   font-size: 2rem;
-  font-family: "PT Serif";
+  font-family: "PT Serif", "Verdana", "Tahoma";
 }
 .hero-text {
   text-align: center;
@@ -54,10 +54,13 @@ h1 {
 }
 
 /* spacing on all sections */
-/* #about, #services, #portfolio, #contact {
-    margin-top: 4rem;
-    padding-top: 4rem;
-} */
+#about,
+#services,
+#portfolio,
+#contact {
+  margin-top: 4rem;
+  padding-top: 4rem;
+}
 #contact {
   padding-bottom: 4rem;
 }
