@@ -62,6 +62,7 @@ h1 {
   color: wheat;
   font-size: 1rem;
   line-height: 1.5;
+  padding-top: 1rem;
 }
 
 /* Section Spacing */
@@ -157,6 +158,9 @@ h1 {
   .hero_title {
     font-size: 3rem;
   }
+  .about_text {
+    padding-top: 1rem; /* Adjust to prevent overlap */
+  }
 
   .hero_desc {
     font-size: 1.5rem;
@@ -185,6 +189,12 @@ h1 {
 @media only screen and (min-width: 992px) {
   .hero_title {
     font-size: 4rem;
+    .about_text {
+      padding-left: 3rem; /* Adjust to prevent overlap */
+    }
+    .imageAboutPage {
+      max-width: 100%;
+    }
   }
 
   .hero_desc {
@@ -196,5 +206,11 @@ h1 {
   .container {
     max-width: 1200px;
     margin: 0 auto;
+  }
+  .about_text {
+    padding-left: 3rem; /* Adjust to prevent overlap */
+  }
+  .imageAboutPage {
+    max-width: 100%;
   }
 }
